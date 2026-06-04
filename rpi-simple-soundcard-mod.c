@@ -105,7 +105,7 @@ static struct snd_soc_dai_link snd_rpi_raw_i2s_codec_dai[] = {
 		.stream_name    = "Raspberry Pi Raw I2S Codec HiFi",
 		.dai_fmt        = SND_SOC_DAIFMT_I2S |
 					SND_SOC_DAIFMT_NB_NF |
-					SND_SOC_DAIFMT_CBS_CFS,
+					SND_SOC_DAIFMT_CBM_CFM,
 		SND_SOC_DAILINK_REG(rpi_raw_i2s_codec),
 	},
 };
