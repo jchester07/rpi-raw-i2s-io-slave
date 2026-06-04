@@ -31,7 +31,7 @@ static struct snd_soc_dai_driver rpi_raw_i2s_codec_dai = {
 			SNDRV_PCM_FMTBIT_S24_LE |
 			SNDRV_PCM_FMTBIT_S32_LE,
 	},
-	.symmetric_rates = 1,
+	.symmetric_rate = 1,
 };
 
 static const struct snd_soc_component_driver soc_component_dev_rpi_raw_i2s_codec = {
