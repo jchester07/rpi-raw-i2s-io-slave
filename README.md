@@ -1,6 +1,10 @@
 Rasperry Pi Raw I²S I/O Virtual Codec 
 =====================================
 
+WARNING: NOT YET TESTED
+Code adjusted to set RPI as slave and setting compatibility to RPI 4b
+
+
 This project implements a simple suite of kernel modules and a device tree
 overlay to enable the Raspberry Pi I²S (PCM) audio interface to be used for
 both input and output with a virtual codec.
